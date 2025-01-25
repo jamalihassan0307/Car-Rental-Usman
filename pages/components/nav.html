@@ -1,0 +1,23 @@
+<nav class="navbar">
+    <div class="nav-brand">
+        <a href="/pages/cars.html">Car Rental</a>
+    </div>
+    <div class="nav-links">
+        <a href="/pages/cars.html">Cars</a>
+        <a href="/pages/bookings.html">My Bookings</a>
+        <a href="/pages/admin-users.html" id="adminUsersLink" style="display: none;">Manage Users</a>
+        <div class="user-profile">
+            <img src="" alt="Profile" id="userImage">
+            <span id="userName"></span>
+        </div>
+        <button onclick="logout()" class="logout-btn">Logout</button>
+    </div>
+</nav>
+
+<script>
+// Show admin links if user is admin
+const currentUser = JSON.parse(localStorage.getItem('currentUser'));
+if (currentUser && currentUser.role_of_user === 1) {
+    document.getElementById('adminUsersLink').style.display = 'inline-block';
+}
+</script> 

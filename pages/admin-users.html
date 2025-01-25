@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Users - Admin</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/admin.css">
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    
+    <main class="container">
+        <div class="admin-header">
+            <h1>Manage Users</h1>
+        </div>
+        
+        <div class="users-grid" id="usersContainer">
+            <!-- Users will be loaded here dynamically -->
+        </div>
+    </main>
+
+    <!-- Edit User Modal -->
+    <div id="userModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Edit User</h2>
+            <form id="userForm">
+                <input type="text" id="userName" placeholder="Name" required>
+                <input type="email" id="userEmail" placeholder="Email" required>
+                <input type="password" id="userPassword" placeholder="New Password">
+                <input type="url" id="userImage" placeholder="Profile Image URL" required>
+                <select id="userRole" required>
+                    <option value="1">Admin</option>
+                    <option value="2">User</option>
+                </select>
+                <button type="submit">Save Changes</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/js/auth.js"></script>
+    <script src="/js/admin-users.js"></script>
+</body>
+</html> 
