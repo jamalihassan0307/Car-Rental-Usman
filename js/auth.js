@@ -1,15 +1,5 @@
-// Add this at the beginning of your auth.js file
-if (!localStorage.getItem("users")) {
-  const initialAdmin = {
-    id: 1,
-    name: "Admin User",
-    email: "admin@example.com",
-    password: "admin123",
-    image: "https://example.com/admin-avatar.jpg",
-    role_of_user: 1,
-  };
-  localStorage.setItem("users", JSON.stringify([initialAdmin]));
-}
+///wafof86802@sfxeur.com
+///Bwp789456
 
 // Check if user is logged in
 function checkAuth() {
