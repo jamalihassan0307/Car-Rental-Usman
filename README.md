@@ -4,7 +4,7 @@
 </div>
 
 <p align="center">
-    <a href="https://jamalihassan0307.github.io/Car-Rental-Usman" target="_blank">
+    <a href="https://car-rental-usman-jamalihassan0307.netlify.app/" target="_blank">
         <img alt="" src="https://img.shields.io/badge/Website-EA4C89?style=normal&logo=dribbble&logoColor=white" style="vertical-align:center" />
     </a>
     <a href="https://your-facebook-url.com" target="_blank">
@@ -27,8 +27,8 @@ A comprehensive car rental management system with separate interfaces for admini
 
 ## 🚀 Live Demo
 
-- Access the live demo here: [Car Rental System](https://jamalihassan0307.github.io/Car-Rental-Usman/)
-- Make sure to add the trailing slash at the end of the URL
+- Access the live demo here: [Car Rental System](https://car-rental-usman-jamalihassan0307.netlify.app/)
+- Deployed on Netlify for better performance and reliability
 
 ## 📸 Screenshots
 
