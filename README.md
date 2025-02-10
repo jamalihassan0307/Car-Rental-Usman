@@ -1,10 +1,10 @@
 <div align="center">
-      <h1> <img src="screenshots/logo.png" width="80px"><br/>Car Rental Admin Dashboard</h1>
+      <h1> <img src="screenshots/logo.png" width="80px"><br/>Car Rental System</h1>
       <h3>Modern Car Rental Management System</h3>
 </div>
 
 <p align="center">
-    <a href="https://your-demo-url.com" target="_blank">
+    <a href="https://jamalihassan0307.github.io/Car-Rental-Usman" target="_blank">
         <img alt="" src="https://img.shields.io/badge/Website-EA4C89?style=normal&logo=dribbble&logoColor=white" style="vertical-align:center" />
     </a>
     <a href="https://your-facebook-url.com" target="_blank">
@@ -24,6 +24,11 @@ A comprehensive car rental management system with separate interfaces for admini
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+## 🚀 Live Demo
+
+- Access the live demo here: [Car Rental System](https://jamalihassan0307.github.io/Car-Rental-Usman/)
+- Make sure to add the trailing slash at the end of the URL
 
 ## 📸 Screenshots
 
