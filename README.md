@@ -27,18 +27,43 @@ A comprehensive car rental management system with separate interfaces for admini
 
 ## 📸 Screenshots
 
+### Authentication
+
+<div align="center">
+  <img src="screenshots/login.png" alt="Login Page" width="400"/>
+  <p><em>Secure login interface</em></p>
+</div>
+
 ### Admin Interface
 
 <div align="center">
   <img src="screenshots/admin-dashboard.png" alt="Admin Dashboard" width="400"/>
+  <img src="screenshots/admin-dashboard1.png" alt="Admin Dashboard Extended" width="400"/>
+  <img src="screenshots/admin-dashboard2.png" alt="Admin Dashboard Management" width="400"/>
   <p><em>Comprehensive admin control panel</em></p>
 </div>
 
-### User Management
+### Car Management
 
 <div align="center">
-  <img src="screenshots/user-management.png" alt="User Management" width="400"/>
-  <p><em>User management interface</em></p>
+  <img src="screenshots/add-car.png" alt="Add New Car" width="400"/>
+  <img src="screenshots/edit-car.png" alt="Edit Car Details" width="400"/>
+  <p><em>Car management interface</em></p>
+</div>
+
+### User Interface
+
+<div align="center">
+  <img src="screenshots/user_home.png" alt="User Dashboard" width="400"/>
+  <img src="screenshots/user-home1.png" alt="Available Cars" width="400"/>
+  <p><em>User dashboard and available cars</em></p>
+</div>
+
+### Booking Management
+
+<div align="center">
+  <img src="screenshots/user-mybooked.png" alt="My Bookings" width="400"/>
+  <p><em>User's booking management interface</em></p>
 </div>
 
 ## Demo Credentials
@@ -96,6 +121,13 @@ A comprehensive car rental management system with separate interfaces for admini
 - Form validation
 - Secure authentication
 
+## 🙏 Acknowledgments
+
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Font Awesome](https://fontawesome.com/)
+
 ## Project Structure
 
 ```
@@ -103,5 +135,8 @@ A comprehensive car rental management system with separate interfaces for admini
 ├── js/
 │   ├── admin.js         # Admin dashboard functionality
 │   ├── admin-users.js   # User management for admins
-│   ├── auth.
+│   ├── auth.js          # Authentication functionality
+│   ├── car.js           # Car management functionality
+│   ├── user.js          # User management functionality
+│   └── booking.js       # Booking management functionality
 ```
